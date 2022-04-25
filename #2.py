@@ -5,9 +5,13 @@ numbers = list()
 size = 5
 i = 0
 while i < size:
-    a = random.randint(1, 99)
+    a = random.randint(55, 199)
     numbers.append(a)
     i += 1
 print(numbers)
+max = numbers[0]
+for k in numbers:
+    if k > max:
+        max = k
 print("Максимальное значение:")
-print (max(numbers))
+print (max)
