@@ -24,5 +24,5 @@ else:
         itog = (dotB % 10) + itog
         dotB = dotB/10
     itog2 = int(itog)
-    print(type(itog2))
+    #print(type(itog2))
     print(f'Сумма цифр в числе: {itog2}')
