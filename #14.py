@@ -15,7 +15,7 @@ if "." in dotA:
     while sum2 > 0:
         itog = (int(sum2) % 10) + itog
         sum2 = sum2/10
-    print(itog)
+    print(f'Сумма цифр в числе: {itog}')
 else:
     dotB = int(dotA)
     print(type(dotB))
@@ -25,4 +25,4 @@ else:
         dotB = dotB/10
     itog2 = int(itog)
     print(type(itog2))
-    print(itog2)
+    print(f'Сумма цифр в числе: {itog2}')
