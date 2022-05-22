@@ -9,9 +9,9 @@ if "." in dotA:
     sum = ""
     for i in range(0,p):
         sum = sum + (str(Chunk[i]))
-    print(sum)
+    #print(sum)
     sum2 = int(sum)
-    print(sum2)
+    #print(sum2)
     itog = 0
     while sum2 > 0:
         itog = (int(sum2)%10) + itog
